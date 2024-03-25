@@ -24,7 +24,6 @@ def main():
         menu()
         choice = input("> ")
         if choice == "0":
-            print("Powered by Virtual")
             exit_program()
         elif choice == "1":
             client_menu()
